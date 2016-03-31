@@ -13,3 +13,7 @@ We expected to see "${EXPECTED}".
 But we saw "${OBSERVED}".
 EOF
 	) &&
+	    exit 64 &&
+	    true
+    fi &&
+    true

@@ -1,0 +1,19 @@
+.\" Manpage for test-phonetic.
+.\" Contact emory.merryman+FPwA6poRL3dkMkNA@gmail.com to correct errors or typos.
+.TH man 8 "30 March 2016" "1.0" "test-phonetic"
+.SH NAME
+test-phonetic \- test a phonetic program
+.SH SYNOPSIS
+test-phonetic [EXECUTABLE] [INPUT] [EXPECTED]
+.SH DESCRIPTION
+test-phonetic compares runs a phonetic program on the given input.
+If the output matches the expected, then the test passes.
+Otherwise the test fails with an error message describing exactly what happened.
+.SH OPTIONS
+The test-phonetic program does not take any options.
+.SH SEE ALSO
+phonetic
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Emory Merryman emory.merryman+FPwA6poRL3dkMkNA@gmail.com
